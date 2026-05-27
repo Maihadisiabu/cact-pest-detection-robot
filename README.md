@@ -342,6 +342,6 @@ The author thanks Alh. Dahiru Maigwari for field access and the Department of El
 
 **Abubakar Rabiu Maihadisi**
 Department of Electrical Engineering, Bayero University Kano, Nigeria
-[YOUR EMAIL ADDRESS]
+maihadisiabubakar@gmail.com
 
 *Issues and pull requests are welcome.*
