@@ -24,7 +24,7 @@ The core contribution is the **Context-Aware Confidence Threshold (CACT)** algor
 - F1-score: 0.862 → **0.917** (+6.4%)
 - False-positive rate: 14.1% → **7.2%** (−49% relative)
 - Field sprayed area reduced by **62%** with equivalent pest targeting accuracy
-- Total hardware cost: ~US$338 (₦482,410 at October 2025 mid-range prices, Nigeria)
+- Total hardware cost: ~US$338 (₦482,410 at October 2025, Nigeria)
 - Published open access in *Discover Robotics* (Springer Nature) — free to read worldwide
 
 ---
@@ -84,7 +84,7 @@ cact-pest-detection-robot/
 
 ## Hardware Requirements
 
-| Component | Specification | Cost (₦, Oct 2025 mid-range) |
+| Component | Specification | Cost (₦) |
 |---|---|---|
 | RPi 4 (4 GB) + Coral USB Accelerator | Edge AI inference | 197,500 |
 | RPi Camera Module v2 (8 MP) | Pest image capture | 80,160 |
@@ -101,9 +101,9 @@ cact-pest-detection-robot/
 | 12 V diaphragm pump + servo nozzle | Targeted spraying | 55,000 |
 | 12 V, 18 Ah sealed lead-acid battery | Primary power | 24,500 |
 | LM2596 (5 V) + 3.3 V LDO regulators | Power conditioning | 2,200 |
-| **Total** | | **~₦482,410 (~US$338)** |
+| **Total** | | **₦482,410 (~US$338)** |
 
-Exchange rate: ₦1,427.5 = US$1 (October 2025 official rate). Prices are mid-range market estimates; see the companion paper (Table 1) for full details.
+Exchange rate: ₦1,427.5 = US$1 (October 2025 official rate).
 
 ---
 
