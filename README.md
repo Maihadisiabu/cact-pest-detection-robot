@@ -24,7 +24,7 @@ The core contribution is the **Context-Aware Confidence Threshold (CACT)** algor
 - F1-score: 0.862 → **0.917** (+6.4%)
 - Binary false-positive rate (FPR = 1 − no-pest recall): 30.7% → **8.0%** (−**73.9%** relative)
 - Field sprayed area reduced by **62%**; pest hit rate difference non-significant (TOST p=0.032, within ±5 pp)
-- Total hardware cost: ~US$338 (₦482,410 at October 2025 mid-range prices, Nigeria)
+- Total hardware cost: ~US$338 (₦482,410)
 - Published open access in *Discover Robotics* (Springer Nature) — free to read worldwide
 
 ---
@@ -37,7 +37,7 @@ cact-pest-detection-robot/
 ├── cact/                          # Core CACT fusion algorithm
 │   ├── cact_filter.py             # Main CACT class and threshold logic
 │   ├── favorability_windows.py    # Environmental favorability definitions per pest
-│   └── threshold_sweep.py        # Validation-set grid search for τ_fav / τ_unfav
+│   └── threshold_sweep.py         # Validation-set grid search for τ_fav / τ_unfav
 │
 ├── vision/                        # CNN training and inference
 │   ├── train_mobilenetv2.py       # MobileNetV2 fine-tuning (TensorFlow 2.11)
@@ -84,7 +84,7 @@ cact-pest-detection-robot/
 
 ## Hardware Requirements
 
-| Component | Specification | Cost (₦, Oct 2025 mid-range) |
+| Component | Specification | Cost (₦) |
 |---|---|---|
 | RPi 4 (4 GB) + Coral USB Accelerator | Edge AI inference | 197,500 |
 | RPi Camera Module v2 (8 MP) | Pest image capture | 80,160 |
@@ -103,7 +103,7 @@ cact-pest-detection-robot/
 | LM2596 (5 V) + 3.3 V LDO regulators | Power conditioning | 2,200 |
 | **Total** | | **~₦482,410 (~US$338)** |
 
-Exchange rate: ₦1,427.5 = US$1 (October 2025 official rate). Prices are mid-range market estimates; see the companion paper (Table 1) for full details.
+Exchange rate: ₦1,427.5 = US$1 (October 2025 official rate).
 
 ---
 
